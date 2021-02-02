@@ -1,0 +1,136 @@
+body {
+    font-family: Roboto, serif;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.container-fluid {
+    background-color: rgba(2, 25, 60, 0.9);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    overflow-x: hidden !important;
+}
+
+
+.text-primary {
+    color: #02b6ff !important;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d3d9e0;
+}
+
+.bg-info {
+    background-color: #204680 !important;
+}
+
+.btn-primary {
+    background-color: #204680 !important;
+}
+
+.card-custom {
+    background-color: #fff;
+    box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.3);
+    background-image: url('img/group-4.png');
+
+    /* Full height */
+    height: 800px;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: bottom -100px center;
+    background-repeat: no-repeat;
+    background-size: 122% 1000px;
+}
+
+.text-info {
+    color: #3e4559 !important;
+}
+
+.border-radius {
+    border-radius: 40px !important;
+}
+
+.border-radius-10 {
+    border-radius: 10px !important;
+}
+
+
+:focus {
+    outline: none !important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #3e4559;
+    outline: none;
+    box-shadow: none;
+}
+
+.label-info {
+    font-size: 12px;
+    border: solid 2px #3e4559;
+    border-bottom: 0;
+    border-radius: 6px 6px 0 0;
+    color: #7587a6;
+    padding-left: 12px;
+    background-color: #fff;
+}
+
+.input-info {
+    border: solid 2px #3e4559;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0 0 0 6px;
+}
+
+.input-group-text {
+    border: solid 2px #3e4559;
+    background-color: #ffffff;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 0 0 6px 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+input:focus {
+    outline: 0;
+}
+
+@media (max-width: 425px) {
+.card-custom {
+    height: 600px;
+
+    /* Center and scale the image nicely */
+    background-position: bottom -100px center;
+    background-size: 122% 800px;
+}
+
+}
+
+@media (max-width: 767px) {
+
+}

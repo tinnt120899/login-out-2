@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+          name="viewport">
+    <title>Title</title>
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <link href="slider/flickity.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css" rel="stylesheet">
+
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container-fluid m-0 p-0">
+
+    <div class="row justify-content-center m-0 p-md-5 p-sm-0 pt-5">
+        <div class="col-xl-4 col-lg-6 col-md-10 col-sm-12 mb-5">
+            <div class="card-custom border-radius">
+
+                <div class="row align-items-center m-0 p-md-3 p-sm-0 pt-5 pb-0">
+                    <div class="col-12 mb-3 text-center">
+                        <h5 class="text-info text-uppercase font-weight-bold">
+                            sign up
+                        </h5>
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <label class="pt-1 label-info w-100 m-0">Email</label>
+                        <div class="input-group">
+                            <input class="form-control input-info" placeholder="Game Account" type="text">
+                            <div class="input-group-append">
+                                <span class="input-group-text"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <label class="pt-1 label-info w-100 m-0">Password</label>
+                        <div class="input-group">
+                            <input class="form-control input-info" id="password-1" placeholder="******" type="password">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="far fa-eye" id="password-icon-1"
+                                                                  onclick="showHidePassword('password-1', 'password-icon-1')"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <label class="pt-1 label-info w-100 m-0">Re-enter Password</label>
+                        <div class="input-group">
+                            <input class="form-control input-info" id="re-password-1" placeholder="******"
+                                   type="password">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="far fa-eye" id="re-password-icon-1"
+                                                                  onclick="showHidePassword('re-password-1', 're-password-icon-1')"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mb-4 text-center">
+                        <span>By signing up you agree to our <a class="text-primary" href="#">Terms of service</a> and
+                                <a class="text-primary" href="#">Privacy policy</a></span>
+                    </div>
+
+                    <div class="col-12 text-center mb-2">
+                        <button class="btn btn-primary w-100 border-radius-10">Log in</button>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <span>Already a member? <a class="text-primary" href="#">LOG IN</a> here.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-10 col-sm-12 mb-5">
+            <div class="card-custom border-radius">
+
+                <div class="row align-items-center m-0 p-md-3 p-sm-0 pt-5">
+                    <div class="col-12 mb-3 text-center">
+                        <h5 class="text-info text-uppercase font-weight-bold">
+                            log in
+                        </h5>
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <label class="pt-1 label-info w-100 m-0">Email</label>
+                        <div class="input-group">
+                            <input class="form-control input-info" placeholder="Game Account" type="text">
+                            <div class="input-group-append">
+                                <span class="input-group-text"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <label class="pt-1 label-info w-100 m-0">Password</label>
+                        <div class="input-group">
+                            <input class="form-control input-info" id="password-2" placeholder="******" type="password">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="far fa-eye" id="password-icon-2"
+                                                                  onclick="showHidePassword('password-2', 'password-icon-2')"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mb-4 text-center">
+                        <span><a class="text-primary" href="#">Forget Password</a></span>
+                    </div>
+
+                    <div class="col-12 text-center mb-2">
+                        <button class="btn btn-primary w-100 border-radius-10">Sign up</button>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <span>Not a member yet? Please <a class="text-primary" href="#">SIGN UP.</a></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-10 col-sm-12 mb-5">
+            <div class="card-custom border-radius">
+
+                <div class="row align-items-center m-0 p-md-3 p-sm-0 pt-5">
+                    <div class="col-12 mb-3 text-center">
+                        <h5 class="text-info text-uppercase font-weight-bold">
+                            Forget password
+                        </h5>
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <label class="pt-1 label-info w-100 m-0">Email</label>
+                        <div class="input-group">
+                            <input class="form-control input-info" placeholder="Your Email" type="text">
+                            <div class="input-group-append">
+                                <span class="input-group-text"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mb-4 text-center">
+                        <span>We will send a reset to your email address.</span>
+                    </div>
+
+                    <div class="col-12 text-center mb-2">
+                        <button class="btn btn-primary w-100 border-radius-10">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script crossorigin="anonymous"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+    function showHidePassword(id1, id2) {
+        var x = document.getElementById(id1);
+        var y = document.getElementById(id2).classList;
+        if (x.type === "password") {
+            x.type = "text";
+            y.remove("fa-eye");
+            y.add("fa-eye-slash");
+        } else {
+            x.type = "password";
+            y.remove("fa-eye-slash");
+            y.add("fa-eye");
+        }
+    }
+</script>
+</body>
+
+</html>
